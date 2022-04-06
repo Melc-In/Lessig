@@ -1,0 +1,48 @@
+/* Custom Font */
+
+@font-face {
+  font-family: Hack;
+  src: url("/fonts/Hack_Bold_700.ttf") format('truetype');
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(163, 24, 105);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background:red;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+/* Background Editor */
+/*
+.bg {
+  
+}
+*/
+h1 {
+  color: red;
+  font-family: 'Hack', sans-serif;
+  font-size: 8em;
+  font-weight: normal;
+}
