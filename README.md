@@ -1,4 +1,4 @@
-# PROJECT : NSI
+# PROJECT : NSI / Lessig
 
   -Our project is about adjusting our Shell and the Gisel programming language for web usage.
 
