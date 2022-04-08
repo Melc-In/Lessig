@@ -5,10 +5,15 @@
   src: url("/fonts/Hack_Bold_700.ttf") format('truetype');
 }
 
+/* Background Editor */
+body {
+  background-color: #121212;
+}
+
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: rgb(163, 24, 105);
+    background-color: #252525;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -18,7 +23,7 @@
   .navbar a {
     float: left;
     display: block;
-    color: purple;
+    color: rgba(255, 255, 255, 0.575);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +31,7 @@
   
   /* Change background on mouse-over */
   .navbar a:hover {
-    background:red;
+    background:rgba(138, 138, 138, 0.096);
   }
   
   /* Main content */
@@ -34,15 +39,12 @@
     margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
 
-/* Background Editor */
-/*
-.bg {
-  
-}
-*/
 h1 {
-  color: red;
+  margin-top: 53px;
+  color: rgb(255, 255, 255);
   font-family: 'Hack', sans-serif;
-  font-size: 8em;
+  margin-bottom: 3px;
+  font-size: 3em;
   font-weight: normal;
+  text-align :center;
 }
