@@ -1,1 +1,0 @@
-const current_time = new Date();
