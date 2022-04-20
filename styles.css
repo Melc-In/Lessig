@@ -15,7 +15,7 @@ body {
   
   /* Links inside the navbar */
   .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: rgba(255, 255, 255, 0.801);
     text-align: center;
