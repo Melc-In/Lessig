@@ -4,29 +4,36 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 2.5%;
+}
+
 /* The navigation bar */
 .navbar {
-    overflow: hidden;
-    background-color: #252525;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: right;
-    display: block;
-    color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background:rgba(138, 138, 138, 0.096);
-  }
+  overflow: hidden;
+  background-color: #252525;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: rgba(255, 255, 255, 0.801);
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background:rgba(138, 138, 138, 0.096);
+}
   
 .h1 {
   font-family: 'Raleway', sans-serif;
@@ -38,15 +45,9 @@ body {
   text-align :center;
 }
 
-.console {
-  overflow: hidden;
-  scrollbar-width: none;
-  overflow: auto;
-  -ms-overflow-style: none; /* IE 11 */
-  scrollbar-width: none; /* Firefox 64 */
-}
-
-.console::-webkit-scrollbar
-{
-  display: none;
+.terminal {
+  --size: 1.5;
+  --color: rgba(255, 255, 255, 0.8);
+  width: 75%;
+  margin-left: 12.5%;
 }
